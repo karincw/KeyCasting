@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c115bb8727d1cb34db2aa94e25616996, type: 3}
+  m_Name: BlackHoleSO
+  m_EditorClassIdentifier: 
+  magicName: BlackHole
+  Letter: 15
+  Mana: 20
+  CastingTime: 12
+  CanHold: 1
+  _blackHoldPrefab: {fileID: 3513121199201683807, guid: 976dc0768c981514db9cdc9ef4d0efb5, type: 3}

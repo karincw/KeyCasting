@@ -16,6 +16,7 @@ public class LetterViewer : MonoBehaviour
 
     public void Open(float time = 0.3f)
     {
+        _canvasGroup.DOComplete();
         _canvasGroup.DOFade(1, time);
     }
     public void Close(float time = 0.3f)

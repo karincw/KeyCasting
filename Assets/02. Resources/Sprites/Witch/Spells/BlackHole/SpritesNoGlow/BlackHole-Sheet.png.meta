@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: b6f1047dd6099334897ac4069c4f04c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7617485967039508690
+    second: BlackHole-Sheet_0
+  - first:
+      213: 3440569952302552010
+    second: BlackHole-Sheet_1
+  - first:
+      213: 7852552160727972095
+    second: BlackHole-Sheet_2
+  - first:
+      213: -6529964443500547854
+    second: BlackHole-Sheet_3
+  - first:
+      213: -8525891235861489706
+    second: BlackHole-Sheet_4
+  - first:
+      213: -4185054209510045449
+    second: BlackHole-Sheet_5
+  - first:
+      213: 179056995763957804
+    second: BlackHole-Sheet_6
+  - first:
+      213: -5703984989768811969
+    second: BlackHole-Sheet_7
+  - first:
+      213: 2807821742403480420
+    second: BlackHole-Sheet_8
+  - first:
+      213: 6755646736935165977
+    second: BlackHole-Sheet_9
+  - first:
+      213: -987049364393481533
+    second: BlackHole-Sheet_10
+  - first:
+      213: -1671520018096665085
+    second: BlackHole-Sheet_11
+  - first:
+      213: -1991584695248901528
+    second: BlackHole-Sheet_12
+  - first:
+      213: -366542229967851970
+    second: BlackHole-Sheet_13
+  - first:
+      213: -485380229101456779
+    second: BlackHole-Sheet_14
+  - first:
+      213: -2414758333359696165
+    second: BlackHole-Sheet_15
+  - first:
+      213: 2091037237163956548
+    second: BlackHole-Sheet_16
+  - first:
+      213: -3178468203069116089
+    second: BlackHole-Sheet_17
+  - first:
+      213: 4976942167022715571
+    second: BlackHole-Sheet_18
+  - first:
+      213: 8273809995785766543
+    second: BlackHole-Sheet_19
+  - first:
+      213: -2152661225006525602
+    second: BlackHole-Sheet_20
+  - first:
+      213: 3545553911684577151
+    second: BlackHole-Sheet_21
+  - first:
+      213: 3487986102467133065
+    second: BlackHole-Sheet_22
+  - first:
+      213: 8551810889862743967
+    second: BlackHole-Sheet_23
+  - first:
+      213: -2218728162984397749
+    second: BlackHole-Sheet_24
+  - first:
+      213: -6713935794315739668
+    second: BlackHole-Sheet_25
+  - first:
+      213: 998431602632605148
+    second: BlackHole-Sheet_26
+  - first:
+      213: 3128137641994951729
+    second: BlackHole-Sheet_27
+  - first:
+      213: -2427270279412898679
+    second: BlackHole-Sheet_28
+  - first:
+      213: -6327739285121683076
+    second: BlackHole-Sheet_29
+  - first:
+      213: 9167400961371532759
+    second: BlackHole-Sheet_30
+  - first:
+      213: -8533944859741338158
+    second: BlackHole-Sheet_31
+  - first:
+      213: -2001851822457177716
+    second: BlackHole-Sheet_32
+  - first:
+      213: -8233384703400490059
+    second: BlackHole-Sheet_33
+  - first:
+      213: -5025599738458907948
+    second: BlackHole-Sheet_34
+  - first:
+      213: 4621727299373623587
+    second: BlackHole-Sheet_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlackHole-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 425
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f46154fd0494690800000000000000
+      internalID: -7617485967039508690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 422
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac350e7842c5fbf20800000000000000
+      internalID: 3440569952302552010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 423
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8ba68e59ed9fc60800000000000000
+      internalID: 7852552160727972095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 420
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0f7359fe7e065a0800000000000000
+      internalID: -6529964443500547854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 418
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d71cd4d713fda980800000000000000
+      internalID: -8525891235861489706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 421
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8866cae53bbe5c0800000000000000
+      internalID: -4185054209510045449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 421
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c203f0393632c7200800000000000000
+      internalID: 179056995763957804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 327
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a7ba07fdf57d0b0800000000000000
+      internalID: -5703984989768811969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 303
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46be39c8ff267f620800000000000000
+      internalID: 2807821742403480420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 351
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9102c0f0ae0e0cd50800000000000000
+      internalID: 6755646736935165977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 303
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca2d8b25db4d42f0800000000000000
+      internalID: -987049364393481533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 355
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ec46e46619dc8e0800000000000000
+      internalID: -1671520018096665085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 301
+        width: 114
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86aa59385487c54e0800000000000000
+      internalID: -1991584695248901528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 301
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e269ba8c7c9eaf0800000000000000
+      internalID: -366542229967851970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 305
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572f867d0459349f0800000000000000
+      internalID: -485380229101456779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 300
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd65ea9f61e0d7ed0800000000000000
+      internalID: -2414758333359696165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 302
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4499545d94bd40d10800000000000000
+      internalID: 2091037237163956548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 210
+        width: 85
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741f0327200d3e3d0800000000000000
+      internalID: -3178468203069116089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 212
+        width: 81
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b24d0d2886a11540800000000000000
+      internalID: 4976942167022715571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 210
+        width: 83
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8603e9ca5a72d270800000000000000
+      internalID: 8273809995785766543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 214
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e539ab965063022e0800000000000000
+      internalID: -2152661225006525602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 216
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77b4fd5f76543130800000000000000
+      internalID: 3545553911684577151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 111
+        width: 67
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e7d0b41e0d76030800000000000000
+      internalID: 3487986102467133065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 118
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f970694e1b22ea670800000000000000
+      internalID: 8551810889862743967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 38
+        width: 162
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44f828bd7e7531e0800000000000000
+      internalID: -2218728162984397749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 146
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedb70f87fe43d2a0800000000000000
+      internalID: -6713935794315739668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 156
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddb07fa0442bdd00800000000000000
+      internalID: 998431602632605148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 121
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c13af9c90696b20800000000000000
+      internalID: 3128137641994951729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 126
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9842bb58a8a905ed0800000000000000
+      internalID: -2427270279412898679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 106
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71b90f55aa5f28a0800000000000000
+      internalID: -6327739285121683076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 117
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddef187a96293f70800000000000000
+      internalID: 9167400961371532759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5c8566d56519980800000000000000
+      internalID: -8533944859741338158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 41
+        width: 92
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89b87daf5ef734e0800000000000000
+      internalID: -2001851822457177716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbcdae0c342dbd80800000000000000
+      internalID: -8233384703400490059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 35
+        width: 83
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da5cd52aab714ab0800000000000000
+      internalID: -5025599738458907948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackHole-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 33
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329e3e7ed7ca32040800000000000000
+      internalID: 4621727299373623587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlackHole-Sheet_0: -7617485967039508690
+      BlackHole-Sheet_1: 3440569952302552010
+      BlackHole-Sheet_10: -987049364393481533
+      BlackHole-Sheet_11: -1671520018096665085
+      BlackHole-Sheet_12: -1991584695248901528
+      BlackHole-Sheet_13: -366542229967851970
+      BlackHole-Sheet_14: -485380229101456779
+      BlackHole-Sheet_15: -2414758333359696165
+      BlackHole-Sheet_16: 2091037237163956548
+      BlackHole-Sheet_17: -3178468203069116089
+      BlackHole-Sheet_18: 4976942167022715571
+      BlackHole-Sheet_19: 8273809995785766543
+      BlackHole-Sheet_2: 7852552160727972095
+      BlackHole-Sheet_20: -2152661225006525602
+      BlackHole-Sheet_21: 3545553911684577151
+      BlackHole-Sheet_22: 3487986102467133065
+      BlackHole-Sheet_23: 8551810889862743967
+      BlackHole-Sheet_24: -2218728162984397749
+      BlackHole-Sheet_25: -6713935794315739668
+      BlackHole-Sheet_26: 998431602632605148
+      BlackHole-Sheet_27: 3128137641994951729
+      BlackHole-Sheet_28: -2427270279412898679
+      BlackHole-Sheet_29: -6327739285121683076
+      BlackHole-Sheet_3: -6529964443500547854
+      BlackHole-Sheet_30: 9167400961371532759
+      BlackHole-Sheet_31: -8533944859741338158
+      BlackHole-Sheet_32: -2001851822457177716
+      BlackHole-Sheet_33: -8233384703400490059
+      BlackHole-Sheet_34: -5025599738458907948
+      BlackHole-Sheet_35: 4621727299373623587
+      BlackHole-Sheet_4: -8525891235861489706
+      BlackHole-Sheet_5: -4185054209510045449
+      BlackHole-Sheet_6: 179056995763957804
+      BlackHole-Sheet_7: -5703984989768811969
+      BlackHole-Sheet_8: 2807821742403480420
+      BlackHole-Sheet_9: 6755646736935165977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

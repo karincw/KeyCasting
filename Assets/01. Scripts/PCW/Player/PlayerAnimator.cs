@@ -1,24 +1,18 @@
-using System;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.EventSystems;
-using UnityEngine.U2D.Animation;
 
 public class PlayerAnimator : MonoBehaviour
 {
     [SerializeField] private InputReader _inputReader;
 
-    [Header("AgentAnimator-Settings")]
-    [SerializeField] protected SpriteLibraryAsset _side;
-    [SerializeField] protected SpriteLibraryAsset _front;
-    [SerializeField] protected SpriteLibraryAsset _back;
-
     protected Animator _animator;
-    protected SpriteLibrary _spreteLibrary;
     protected SpriteRenderer _spriteRenderer;
     protected Vector2 _moveDirection;
 
     protected int _walkHash = Animator.StringToHash("Walk");
+    protected int _HitHash = Animator.StringToHash("Hit");
+    protected int _CastingSuccessHash = Animator.StringToHash("CastingSuccess");
+    protected int _CastingFailHash = Animator.StringToHash("CastingFail");
 
     private NavMeshAgent _navAgent;
 
@@ -26,7 +20,6 @@ public class PlayerAnimator : MonoBehaviour
     {
         _navAgent = GetComponentInParent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
-        _spreteLibrary = GetComponent<SpriteLibrary>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -55,23 +48,23 @@ public class PlayerAnimator : MonoBehaviour
     {
         if (_moveDirection == Vector2.zero) return;
 
-        if (Vector2.Dot(Vector2.up, _moveDirection) >= 0.9f)
-        {
-            _spreteLibrary.spriteLibraryAsset = _front;
-        }
-        else if (Vector2.Dot(Vector2.down, _moveDirection) >= 0.9f)
-        {
-            _spreteLibrary.spriteLibraryAsset = _back;
-        }
+        if (_moveDirection.x < 0)
+            _spriteRenderer.flipX = true;
         else
-        {
-            _spreteLibrary.spriteLibraryAsset = _side;
-            if (_moveDirection.x < 0)
-                _spriteRenderer.flipX = true;
-            else
-                _spriteRenderer.flipX = false;
+            _spriteRenderer.flipX = false;
+    }
 
-        }
-        _spreteLibrary.RefreshSpriteResolvers();
+    public void Hit()
+    {
+        _animator.SetTrigger(_HitHash);
+    }
+
+    public void CastingSuccess()
+    {
+        _animator.SetTrigger(_CastingSuccessHash);
+    }
+    public void CastingFail()
+    {
+        _animator.SetTrigger(_CastingFailHash);
     }
 }

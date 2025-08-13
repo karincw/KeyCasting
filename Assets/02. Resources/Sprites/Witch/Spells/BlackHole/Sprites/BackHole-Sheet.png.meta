@@ -1,0 +1,724 @@
+fileFormatVersion: 2
+guid: b52334a62f7b8754f99aaa6eb6270a1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8590727424577853809
+    second: BackHole-Sheet_0
+  - first:
+      213: -1484002020561540531
+    second: BackHole-Sheet_1
+  - first:
+      213: 4059181155793094241
+    second: BackHole-Sheet_2
+  - first:
+      213: 2896864579055562
+    second: BackHole-Sheet_3
+  - first:
+      213: 9189659237536902397
+    second: BackHole-Sheet_4
+  - first:
+      213: 5171723802202197895
+    second: BackHole-Sheet_5
+  - first:
+      213: -3966484720248053742
+    second: BackHole-Sheet_6
+  - first:
+      213: -4930607706194907743
+    second: BackHole-Sheet_7
+  - first:
+      213: -839527775351938926
+    second: BackHole-Sheet_8
+  - first:
+      213: 3692576457102860920
+    second: BackHole-Sheet_9
+  - first:
+      213: -8593269297380977402
+    second: BackHole-Sheet_10
+  - first:
+      213: 6984141019454614443
+    second: BackHole-Sheet_11
+  - first:
+      213: -560855431932293684
+    second: BackHole-Sheet_12
+  - first:
+      213: -7419716762758656739
+    second: BackHole-Sheet_13
+  - first:
+      213: 8433195420012598362
+    second: BackHole-Sheet_14
+  - first:
+      213: 6061557355800422613
+    second: BackHole-Sheet_15
+  - first:
+      213: 7735375228208974962
+    second: BackHole-Sheet_16
+  - first:
+      213: -2439747159071218833
+    second: BackHole-Sheet_17
+  - first:
+      213: 6289506755636008537
+    second: BackHole-Sheet_18
+  - first:
+      213: -1800040555823967219
+    second: BackHole-Sheet_19
+  - first:
+      213: -6458754236151915228
+    second: BackHole-Sheet_20
+  - first:
+      213: 2059605812532109373
+    second: BackHole-Sheet_21
+  - first:
+      213: 9200519784110446226
+    second: BackHole-Sheet_22
+  - first:
+      213: 5196592540501249996
+    second: BackHole-Sheet_23
+  - first:
+      213: 2126483091705667732
+    second: BackHole-Sheet_24
+  - first:
+      213: 5413570638920263374
+    second: BackHole-Sheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BackHole-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1795b28b315683770800000000000000
+      internalID: 8590727424577853809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 512
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4aa77e5604c76be0800000000000000
+      internalID: -1484002020561540531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 512
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166c10631cb155830800000000000000
+      internalID: 4059181155793094241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 512
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf6238deaa4a0000800000000000000
+      internalID: 2896864579055562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 512
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc264c336a388f70800000000000000
+      internalID: 9189659237536902397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fc1baa567a5c740800000000000000
+      internalID: 5171723802202197895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 384
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210a99a892734f8c0800000000000000
+      internalID: -3966484720248053742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 384
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ade2792a66f29bb0800000000000000
+      internalID: -4930607706194907743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 384
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290e213bfe56954f0800000000000000
+      internalID: -839527775351938926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 384
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872269f39baae3330800000000000000
+      internalID: 3692576457102860920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60516566a139eb880800000000000000
+      internalID: -8593269297380977402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 256
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baba3dde047ace060800000000000000
+      internalID: 6984141019454614443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 256
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdc359c4f07738f0800000000000000
+      internalID: -560855431932293684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 256
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d42c56aeed70990800000000000000
+      internalID: -7419716762758656739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 256
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a545d43bd8ab80570800000000000000
+      internalID: 8433195420012598362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8e322bc4afe1450800000000000000
+      internalID: 6061557355800422613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 128
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c80c949c2995b60800000000000000
+      internalID: 7735375228208974962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 128
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63aac992e6442ed0800000000000000
+      internalID: -2439747159071218833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 128
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9569a1e2211d84750800000000000000
+      internalID: 6289506755636008537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 128
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04d0d8c6a8f407e0800000000000000
+      internalID: -1800040555823967219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d9d9efd35ed56a0800000000000000
+      internalID: -6458754236151915228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d306e410390359c10800000000000000
+      internalID: 2059605812532109373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHole-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2965bd84fffceaf70800000000000000
+      internalID: 9200519784110446226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: aff51b09e122db0448b00c76e5265883
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BackHole-Sheet_0: 8590727424577853809
+      BackHole-Sheet_1: -1484002020561540531
+      BackHole-Sheet_10: -8593269297380977402
+      BackHole-Sheet_11: 6984141019454614443
+      BackHole-Sheet_12: -560855431932293684
+      BackHole-Sheet_13: -7419716762758656739
+      BackHole-Sheet_14: 8433195420012598362
+      BackHole-Sheet_15: 6061557355800422613
+      BackHole-Sheet_16: 7735375228208974962
+      BackHole-Sheet_17: -2439747159071218833
+      BackHole-Sheet_18: 6289506755636008537
+      BackHole-Sheet_19: -1800040555823967219
+      BackHole-Sheet_2: 4059181155793094241
+      BackHole-Sheet_20: -6458754236151915228
+      BackHole-Sheet_21: 2059605812532109373
+      BackHole-Sheet_22: 9200519784110446226
+      BackHole-Sheet_3: 2896864579055562
+      BackHole-Sheet_4: 9189659237536902397
+      BackHole-Sheet_5: 5171723802202197895
+      BackHole-Sheet_6: -3966484720248053742
+      BackHole-Sheet_7: -4930607706194907743
+      BackHole-Sheet_8: -839527775351938926
+      BackHole-Sheet_9: 3692576457102860920
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
