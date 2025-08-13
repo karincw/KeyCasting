@@ -9,22 +9,26 @@ public class Casting : MonoBehaviour
     [SerializeField] private GaugeBar _castingGauge;
     [SerializeField] private LetterViewer _letterViewer;
 
-    [SerializeField] private MagicSO currentMagicData;
+    public MagicSO currentMagicData;
+
     private Magic currentMagic;
-    private bool _canCasting => Time.time > _lastCastingTime + castingCooltime;
-    [SerializeField] private float castingCooltime = 2.5f;
-    private float _lastCastingTime = -100;
+    private PlayerAnimator _playerAnimator;
 
     private List<string> _castingLetter;
     private int _castingIndex;
+
+    [SerializeField] private float castingCooltime = 2.5f;
+    private float _lastCastingTime = -100;
     private float _castingTime;
 
+    private bool _canCasting => Time.time > _lastCastingTime + castingCooltime;
     private bool _isCasting = false;
     private bool _isHolding = false;
 
     private void Awake()
     {
         _castingLetter = new();
+        _playerAnimator = GetComponentInChildren<PlayerAnimator>();
         _inputReader.OnCastingInput += OnCasting;
     }
 
@@ -38,7 +42,7 @@ public class Casting : MonoBehaviour
         if (!_canCasting) return; //캐스팅 불가능시 종료
         if (_isCasting || _isHolding)           //이미 캐스팅 중일시 캐스팅 종료
         {
-            EndCasting();
+            EndCasting(false);
             return;
         }
 
@@ -63,15 +67,17 @@ public class Casting : MonoBehaviour
             currentMagic = currentMagicData.UseMagic();
             currentMagic.SetPositionWithDirection((Vector2)transform.position + lookMouseDir, lookMouseDir); //마법 생성
             currentMagic.NextPhase(MagicPhase.Casting);
+
+            _playerAnimator.SetTrigger(currentMagicData.animationHash);
+            _isCasting = true;
+            _isHolding = false;
         }
-        _isCasting = true;
-        _isHolding = false;
     }
 
     private IEnumerator CastingCoroutine()
     {
         yield return new WaitUntil(() => _castingTime <= 0);
-        EndCasting();
+        EndCasting(false);
     }
 
     private void Update()
@@ -98,7 +104,6 @@ public class Casting : MonoBehaviour
 
             if (currentMagicData.CanHold)
             {
-                Debug.Log("새로운 주문 영창");
                 _castingLetter = currentMagicData.GetCastingLetter().GetLetterList();
                 _castingIndex = 0;
                 _letterViewer.SetLetters(_castingLetter);
@@ -109,8 +114,7 @@ public class Casting : MonoBehaviour
             }
             else
             {
-                EndCasting();
-                StopCoroutine("CastingCoroutine");
+                EndCasting(true);
             }
         }
     }
@@ -165,24 +169,31 @@ public class Casting : MonoBehaviour
                 {
                     _letterViewer.Press(_castingIndex);
                     _castingIndex++;
-                    _castingTime += 1;
+                    _castingTime += 0.5f;
                 }
                 else
                 {
-                    EndCasting();
+                    EndCasting(false);
                 }
             }
         }
     }
 
-    private void EndCasting()
+    private void EndCasting(bool success)
     {
         _castingGauge.Close();
         _letterViewer.Close();
         _isCasting = false;
         _isHolding = false;
         _lastCastingTime = Time.time;
+
+        if (success)
+            _playerAnimator.CastingSuccess();
+        else
+            _playerAnimator.CastingFail();
+
         currentMagic.NextPhase(MagicPhase.Fail);
+        StopAllCoroutines();
     }
 
 }

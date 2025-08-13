@@ -27,12 +27,10 @@ public class BlackHole : Magic
     public override void SpawnPhase() { }
     public override void CastingPhase()
     {
-        Debug.Log("CastingPhase");
         _followMouse = true;
     }
     public override void SuccessPhase()
     {
-        Debug.Log("SuccessPhase");
         _followMouse = false;
         StartCoroutine("AttractionCoroutine");
         StartCoroutine("DamageCoroutine");
@@ -41,19 +39,16 @@ public class BlackHole : Magic
     }
     public override void HoldPhase()
     {
-        Debug.Log("HoldPhase");
         _animator.Hold();
     }
 
     public override void FailPhase()
     {
-        Debug.Log("FailPhase");
         StopAllCoroutines();
         DestroyPhase();
     }
     public override void EndPhase()
     {
-        Debug.Log("EndPhase");
         StopAllCoroutines();
         _animator.End();
     }

@@ -4,12 +4,14 @@ using UnityEngine;
 public abstract class MagicSO : ScriptableObject
 {
     public string magicName;
+    public string magicDescription;
+    public string animationHash;
     public int Letter;
     public int Mana;
     public float CastingTime;
     public bool CanHold = false;
 
-    private readonly string usableLetters = "QWERASDFZXCV";  
+    public static string UsableLetters = "QWERASDFZXCV";  
 
     public abstract Magic UseMagic();
 
@@ -21,8 +23,8 @@ public abstract class MagicSO : ScriptableObject
 
         for (int i = 0; i < Letter; i++)
         {
-            randomIndex = Random.Range(0, usableLetters.Length);
-            stringBuilder.Append(usableLetters[randomIndex]);
+            randomIndex = Random.Range(0, UsableLetters.Length);
+            stringBuilder.Append(MagicSO.UsableLetters[randomIndex]);
         }
         
         result.letter = stringBuilder.ToString();

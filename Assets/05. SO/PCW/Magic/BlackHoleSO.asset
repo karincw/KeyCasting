@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: BlackHoleSO
   m_EditorClassIdentifier: 
   magicName: BlackHole
+  magicDescription: 
+  animationHash: CastBlackHole
   Letter: 15
   Mana: 20
-  CastingTime: 12
+  CastingTime: 10
   CanHold: 1
   _blackHoldPrefab: {fileID: 3513121199201683807, guid: 976dc0768c981514db9cdc9ef4d0efb5, type: 3}

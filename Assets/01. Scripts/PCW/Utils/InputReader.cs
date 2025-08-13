@@ -13,6 +13,7 @@ public class InputReader : ScriptableObject, IInGameActions
     public Action<string> OnCastingKeyInput;
     public Action OnCastingInput;
     public Action<bool> OnMovementInput;
+    public Action<bool> OnMagicChangeInput;
 
     private void OnEnable()
     {
@@ -53,6 +54,15 @@ public class InputReader : ScriptableObject, IInGameActions
         if (context.performed)
         {
             OnCastingInput?.Invoke();
+        }
+    }
+
+    public void OnMagicChange(InputAction.CallbackContext context)
+    {
+        if(context.performed)
+        {
+            float value = context.ReadValue<float>();
+            OnMagicChangeInput?.Invoke(value > 0);
         }
     }
 }

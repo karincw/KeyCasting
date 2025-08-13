@@ -67,4 +67,14 @@ public class PlayerAnimator : MonoBehaviour
     {
         _animator.SetTrigger(_CastingFailHash);
     }
+
+
+    public void SetTrigger(string hash)
+    {
+        _animator.SetTrigger(hash);
+    }
+    public void SetTrigger(int hash)
+    {
+        _animator.SetTrigger(hash);
+    }
 }
