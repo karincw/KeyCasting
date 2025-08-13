@@ -12,6 +12,7 @@ public class Player : MonoBehaviour, IHitable
         set => _health = value;
     }
     private int _health;
+    private Vector2 _destination;
 
     private void Awake()
     {
@@ -25,6 +26,6 @@ public class Player : MonoBehaviour, IHitable
 
     private void Movement(Vector2 pos)
     {
-        transform.position = pos;
+        _destination = pos;
     }
 }

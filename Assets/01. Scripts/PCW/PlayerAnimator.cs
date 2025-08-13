@@ -17,7 +17,6 @@ public class PlayerAnimator : MonoBehaviour
     protected Vector2 _moveDirection;
 
     protected int _walkHash = Animator.StringToHash("Walk");
-    protected int _runHash = Animator.StringToHash("Run");
 
     protected virtual void Awake()
     {
