@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using UnityEditor.ShaderGraph;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static Controls;
@@ -12,8 +11,8 @@ public class InputReader : ScriptableObject, IInGameActions
     public Controls Controls => _controls;
 
     public Action<string> OnCastingKeyInput;
-    public Action<bool> OnCastingInput;
-    public Action<Vector2> OnMovementInput;
+    public Action OnCastingInput;
+    public Action<bool> OnMovementInput;
 
     private void OnEnable()
     {
@@ -39,12 +38,13 @@ public class InputReader : ScriptableObject, IInGameActions
 
     public void OnMovement(InputAction.CallbackContext context)
     {
-        if(context.performed)
+        if (context.performed)
         {
-            Vector2 screenPos = Mouse.current.position.ReadValue();
-            Vector3 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, 0f));
-            worldPos.z = 0f;
-            OnMovementInput?.Invoke(worldPos);
+            OnMovementInput?.Invoke(true);
+        }
+        else if (context.canceled)
+        {
+            OnMovementInput?.Invoke(false);
         }
     }
 
@@ -52,11 +52,7 @@ public class InputReader : ScriptableObject, IInGameActions
     {
         if (context.performed)
         {
-            OnCastingInput?.Invoke(true);
-        }
-        if (context.canceled)
-        {
-            OnCastingInput?.Invoke(false);
+            OnCastingInput?.Invoke();
         }
     }
 }
