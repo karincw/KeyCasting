@@ -5,6 +5,8 @@ public class PlayerAnimator : MonoBehaviour
 {
     [SerializeField] private InputReader _inputReader;
 
+    public bool IsFlip => _spriteRenderer.flipX;
+
     protected Animator _animator;
     protected SpriteRenderer _spriteRenderer;
     protected Vector2 _moveDirection;
@@ -26,7 +28,6 @@ public class PlayerAnimator : MonoBehaviour
     private void Update()
     {
         GetMoveDirection();
-        SetAnimationDirection();
     }
 
     private void GetMoveDirection()
@@ -42,16 +43,23 @@ public class PlayerAnimator : MonoBehaviour
         {
             _animator.SetBool(_walkHash, true);
         }
+        SetViewDirection(_moveDirection);
     }
 
-    protected void SetAnimationDirection()
+    public void SetViewDirection(Vector2 direction)
     {
-        if (_moveDirection == Vector2.zero) return;
+        if (direction == Vector2.zero) return;
 
-        if (_moveDirection.x < 0)
+        if (direction.x < 0)
             _spriteRenderer.flipX = true;
         else
             _spriteRenderer.flipX = false;
+    }
+
+    public void Clear()
+    {
+        _animator.ResetTrigger(_CastingSuccessHash);
+        _animator.ResetTrigger(_CastingFailHash);
     }
 
     public void Hit()

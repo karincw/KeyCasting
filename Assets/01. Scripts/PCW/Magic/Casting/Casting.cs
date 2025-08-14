@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -40,14 +41,22 @@ public class Casting : MonoBehaviour
     private void OnCasting()
     {
         if (!_canCasting) return; //캐스팅 불가능시 종료
-        if (_isCasting || _isHolding)           //이미 캐스팅 중일시 캐스팅 종료
+        if (_isCasting)           //이미 캐스팅 중일시 캐스팅 종료
         {
-            EndCasting(false);
+            EndCasting(MagicPhase.Destroy);
+            _playerAnimator.CastingFail();
+            return;
+        }
+        if (_isHolding)
+        {
+            EndCasting(MagicPhase.End);
+            _playerAnimator.CastingFail();
             return;
         }
 
         if (currentMagicData != null) // 마법이 있다면 마법 샐행
         {
+            _playerAnimator.Clear();
             _castingLetter = currentMagicData.GetCastingLetter().GetLetterList(); //캐스팅 글자 받아오기
             _castingIndex = 0;
             _castingTime = currentMagicData.CastingTime;
@@ -59,13 +68,12 @@ public class Casting : MonoBehaviour
             _letterViewer.SetLetters(_castingLetter);
             _castingGauge.SetGauge(1);   //UI 실행
 
-
-            Vector2 screenPos = Mouse.current.position.ReadValue();
-            Vector2 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, 0f));
-            Vector2 lookMouseDir = (worldPos - (Vector2)transform.position).normalized;
+            
+            Vector2 lookMouseDir = (Utils.GetMousePos() - (Vector2)transform.position).normalized;
 
             currentMagic = currentMagicData.UseMagic();
             currentMagic.SetPositionWithDirection((Vector2)transform.position + lookMouseDir, lookMouseDir); //마법 생성
+            currentMagic.Flip(_playerAnimator.IsFlip);
             currentMagic.NextPhase(MagicPhase.Casting);
 
             _playerAnimator.SetTrigger(currentMagicData.animationHash);
@@ -77,16 +85,25 @@ public class Casting : MonoBehaviour
     private IEnumerator CastingCoroutine()
     {
         yield return new WaitUntil(() => _castingTime <= 0);
-        EndCasting(false);
+        EndCasting(MagicPhase.Fail);
+        _playerAnimator.CastingFail();
     }
 
     private void Update()
     {
+        LookUpMouse();
         UpdateCastingGauge();
         CastingMagic();
         HoldingMagic();
         CastingKeyInput();
         HoldingKeyInput();
+    }
+
+    private void LookUpMouse()
+    {
+        if (!(_isCasting || _isHolding)) return;
+        Vector3 mousePos = Utils.GetMousePos();
+        _playerAnimator.SetViewDirection((mousePos - transform.position).normalized );
     }
 
     private void UpdateCastingGauge()
@@ -101,20 +118,22 @@ public class Casting : MonoBehaviour
         if (_castingLetter[_castingIndex] == "END")
         {
             currentMagic.NextPhase(MagicPhase.Success);
+            currentMagic.Flip(_playerAnimator.IsFlip);
+            _playerAnimator.CastingSuccess();
 
             if (currentMagicData.CanHold)
             {
                 _castingLetter = currentMagicData.GetCastingLetter().GetLetterList();
                 _castingIndex = 0;
                 _letterViewer.SetLetters(_castingLetter);
-                _castingTime += 1.5f;
+                _castingTime += currentMagicData.CastReward;
                 _isCasting = false;
                 _isHolding = true;
                 currentMagic.NextPhase(MagicPhase.Hold);
             }
             else
             {
-                EndCasting(true);
+                EndCasting(MagicPhase.End);
             }
         }
     }
@@ -125,7 +144,7 @@ public class Casting : MonoBehaviour
             _castingLetter = currentMagicData.GetCastingLetter().GetLetterList();
             _castingIndex = 0;
             _letterViewer.SetLetters(_castingLetter);
-            _castingTime += 1.5f;
+            _castingTime += currentMagicData.HoldReward;
             _isHolding = true;
             currentMagic.NextPhase(MagicPhase.Hold);
         }
@@ -149,7 +168,7 @@ public class Casting : MonoBehaviour
                 }
                 else
                 {
-                    _castingTime -= 1f;
+                    _castingTime -= currentMagicData.CastDecreaseValue;
                 }
             }
         }
@@ -169,30 +188,25 @@ public class Casting : MonoBehaviour
                 {
                     _letterViewer.Press(_castingIndex);
                     _castingIndex++;
-                    _castingTime += 0.5f;
+                    _castingTime += currentMagicData.HoldIncreaseValue;
                 }
                 else
                 {
-                    EndCasting(false);
+                    EndCasting(MagicPhase.Fail);
+                    _playerAnimator.CastingFail();
                 }
             }
         }
     }
 
-    private void EndCasting(bool success)
+    private void EndCasting(MagicPhase phase)
     {
         _castingGauge.Close();
         _letterViewer.Close();
         _isCasting = false;
         _isHolding = false;
         _lastCastingTime = Time.time;
-
-        if (success)
-            _playerAnimator.CastingSuccess();
-        else
-            _playerAnimator.CastingFail();
-
-        currentMagic.NextPhase(MagicPhase.Fail);
+        currentMagic.NextPhase(phase);
         StopAllCoroutines();
     }
 

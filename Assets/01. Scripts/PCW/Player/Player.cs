@@ -45,11 +45,7 @@ public class Player : MonoBehaviour, IHitable
     {
         while (moveState)
         {
-            Vector2 screenPos = Mouse.current.position.ReadValue();
-            Vector3 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, 0f));
-            worldPos.z = 0f;
-
-            _destination = worldPos;
+            _destination = Utils.GetMousePos();
             _navAgent.destination = _destination;
             yield return new WaitForSeconds(0.25f);
         }

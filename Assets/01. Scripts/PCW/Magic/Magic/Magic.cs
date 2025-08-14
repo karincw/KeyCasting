@@ -30,6 +30,11 @@ public abstract class Magic : MonoBehaviour
         _setUpEnd = true;
     }
 
+    public void Flip(bool state)
+    {
+        _animator.Flip(state);
+    }
+
     public void NextPhase(MagicPhase phase = MagicPhase.None)
     {
         if (phase == MagicPhase.None)
@@ -72,20 +77,24 @@ public abstract class Magic : MonoBehaviour
         NextPhase();
     }
 
-    protected void FollowMouse()
+    public virtual void SpawnPhase() { }
+    public virtual void CastingPhase() { }
+    public virtual void SuccessPhase() { }
+    public virtual void HoldPhase() { }
+    public virtual void EndPhase()
     {
-        Vector2 screenPos = Mouse.current.position.ReadValue();
-        Vector2 worldPos = Camera.main.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, 0f));
-        transform.position = worldPos;
+        StopAllCoroutines();
+        _animator.End();
     }
-
-    public abstract void SpawnPhase();
-    public abstract void CastingPhase();
-    public abstract void SuccessPhase();
-    public abstract void HoldPhase();
-    public abstract void EndPhase();
-    public abstract void FailPhase();
-    public abstract void DestroyPhase();
+    public virtual void FailPhase()
+    {
+        StopAllCoroutines();
+        DestroyPhase();
+    }
+    public virtual void DestroyPhase()
+    {
+        Destroy(gameObject);
+    }
 
 }
 

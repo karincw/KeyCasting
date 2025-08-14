@@ -39,29 +39,21 @@ public class MagicTableUI : MonoBehaviour
     private void MoveLeft()
     {
         if (_currentIdx == 0) return;
-        _contentsTrm.DOAnchorPos(_contentsTrm.anchoredPosition + new Vector2(_moveInterval, 0), 0.5f);
-        _contents[_currentIdx].transform.DOKill();
+        _contentsTrm.DOComplete();
         _contents[_currentIdx].transform.DOScale(0.5f, 0.5f);
         _currentIdx--;
-        _contents[_currentIdx].transform.DOKill();
-        _contents[_currentIdx].transform.DOScale(1, 0.5f)
-            .OnComplete(() =>
-            {
-                _casting.currentMagicData = _contents[_currentIdx].magicData;
-            });
+        _contents[_currentIdx].transform.DOScale(1, 0.5f);
+        _contentsTrm.DOAnchorPos(new Vector2(-_moveInterval * _currentIdx, 0), 0.5f);
+        _casting.currentMagicData = _contents[_currentIdx].magicData;
     }
     private void MoveRight()
     {
         if (_currentIdx == _contents.Count - 1) return;
-        _contentsTrm.DOAnchorPos(_contentsTrm.anchoredPosition - new Vector2(_moveInterval, 0), 0.5f);
-        _contents[_currentIdx].transform.DOKill();
+        _contentsTrm.DOComplete();
         _contents[_currentIdx].transform.DOScale(0.5f, 0.5f);
         _currentIdx++;
-        _contents[_currentIdx].transform.DOKill();
-        _contents[_currentIdx].transform.DOScale(1, 0.5f)
-            .OnComplete(() =>
-            {
-                _casting.currentMagicData = _contents[_currentIdx].magicData;
-            });
+        _contents[_currentIdx].transform.DOScale(1, 0.5f);
+        _contentsTrm.DOAnchorPos(new Vector2(-_moveInterval * _currentIdx, 0), 0.5f);
+        _casting.currentMagicData = _contents[_currentIdx].magicData;
     }
 }

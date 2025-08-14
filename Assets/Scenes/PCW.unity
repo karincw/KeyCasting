@@ -1492,37 +1492,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &676915684
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 676915685}
-  m_Layer: 0
-  m_Name: IcePillar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &676915685
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676915684}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.012969863, y: -1.8054839, z: -0.055790894}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &680209017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,7 +1557,7 @@ MonoBehaviour:
   _inputReader: {fileID: 11400000, guid: b6606451a94cace4099b4a1bb8edadbc, type: 2}
   _castingGauge: {fileID: 859189852}
   _letterViewer: {fileID: 854887271}
-  currentMagicData: {fileID: 0}
+  currentMagicData: {fileID: 11400000, guid: fee0cb9e8282d4d41af25d4d8942ce11, type: 2}
   castingCooltime: 2
 --- !u!195 &680209022
 NavMeshAgent:
@@ -1820,37 +1789,6 @@ Transform:
   - {fileID: 2082440608}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &736600464
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 736600465}
-  m_Layer: 0
-  m_Name: Infierno
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &736600465
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736600464}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.012969863, y: -1.8054839, z: -0.055790894}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &828445147
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,7 +1866,7 @@ GameObject:
   - component: {fileID: 829068822}
   - component: {fileID: 829068824}
   m_Layer: 5
-  m_Name: MagicUI
+  m_Name: Infierno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2003,7 +1941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17877965836789a4a8cb3a1d6ec382ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magicData: {fileID: 11400000, guid: fee0cb9e8282d4d41af25d4d8942ce11, type: 2}
+  magicData: {fileID: 11400000, guid: 7b80b1c71992fd24696a0d28242d4343, type: 2}
 --- !u!1 &854887268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,7 +2175,7 @@ GameObject:
   - component: {fileID: 879002550}
   - component: {fileID: 879002552}
   m_Layer: 5
-  m_Name: MagicUI
+  m_Name: BlackHole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2435,9 +2373,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 879002549}
+  - {fileID: 829068821}
   - {fileID: 1560454848}
   - {fileID: 1426315830}
-  - {fileID: 829068821}
   m_Father: {fileID: 1661665910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4021,7 +3959,7 @@ GameObject:
   - component: {fileID: 1560454849}
   - component: {fileID: 1560454851}
   m_Layer: 5
-  m_Name: MagicUI
+  m_Name: IcePillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4066,7 +4004,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7015101323503300529, guid: 32ffede4797fdd14485c40c6258f646c, type: 3}
+  m_Sprite: {fileID: -7681745423748011851, guid: 54d03b81f1c30fa4b9a4631efa2c675e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4096,7 +4034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17877965836789a4a8cb3a1d6ec382ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magicData: {fileID: 11400000, guid: fee0cb9e8282d4d41af25d4d8942ce11, type: 2}
+  magicData: {fileID: 11400000, guid: 6fd754381d90e324abb68d01fd9915a8, type: 2}
 --- !u!1 &1578265285
 GameObject:
   m_ObjectHideFlags: 0
@@ -13511,6 +13449,4 @@ SceneRoots:
   - {fileID: 719694452}
   - {fileID: 1578265289}
   - {fileID: 556020431}
-  - {fileID: 736600465}
   - {fileID: 1153154675}
-  - {fileID: 676915685}

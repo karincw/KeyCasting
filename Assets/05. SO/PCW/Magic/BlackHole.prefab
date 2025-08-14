@@ -126,14 +126,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 10
   _speed: 0
-  _attractionPower: 1
-  _attractionCooltime: 0.5
+  _attractionPower: 0.35
+  _attractionCooltime: 0.75
   _attractionAreaRadius: 7
   _damageCooltime: 0.5
   _damageAreaRadius: 2
   _targetLayer:
     serializedVersion: 2
     m_Bits: 128
+  _followMoveSpeed: 0.05
 --- !u!114 &-7169839396006050423
 MonoBehaviour:
   m_ObjectHideFlags: 0
