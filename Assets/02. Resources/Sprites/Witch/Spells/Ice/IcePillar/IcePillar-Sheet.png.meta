@@ -1,0 +1,1048 @@
+fileFormatVersion: 2
+guid: 54d03b81f1c30fa4b9a4631efa2c675e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4978471465039702649
+    second: IcePillar-Sheet_0
+  - first:
+      213: -8487871167564946058
+    second: IcePillar-Sheet_1
+  - first:
+      213: -5633351022131764482
+    second: IcePillar-Sheet_2
+  - first:
+      213: -4425314654126195597
+    second: IcePillar-Sheet_3
+  - first:
+      213: -4098815404332333842
+    second: IcePillar-Sheet_4
+  - first:
+      213: -2724610980899523232
+    second: IcePillar-Sheet_5
+  - first:
+      213: -6959307257981487034
+    second: IcePillar-Sheet_6
+  - first:
+      213: 7947870334057244493
+    second: IcePillar-Sheet_7
+  - first:
+      213: 407542015027276460
+    second: IcePillar-Sheet_8
+  - first:
+      213: 925768650811637578
+    second: IcePillar-Sheet_9
+  - first:
+      213: -7681745423748011851
+    second: IcePillar-Sheet_10
+  - first:
+      213: -8140604717856435727
+    second: IcePillar-Sheet_11
+  - first:
+      213: -4743299094829907418
+    second: IcePillar-Sheet_12
+  - first:
+      213: -744283364142193826
+    second: IcePillar-Sheet_13
+  - first:
+      213: -9155736254445210041
+    second: IcePillar-Sheet_14
+  - first:
+      213: 5048924067319963008
+    second: IcePillar-Sheet_15
+  - first:
+      213: 5812612103433802272
+    second: IcePillar-Sheet_16
+  - first:
+      213: -7645685662216456967
+    second: IcePillar-Sheet_17
+  - first:
+      213: 7216030046260043082
+    second: IcePillar-Sheet_18
+  - first:
+      213: -205910459966729021
+    second: IcePillar-Sheet_19
+  - first:
+      213: -3925944664166192130
+    second: IcePillar-Sheet_20
+  - first:
+      213: -5718300511720891831
+    second: IcePillar-Sheet_21
+  - first:
+      213: 2536422049594759090
+    second: IcePillar-Sheet_22
+  - first:
+      213: -7300132119200245633
+    second: IcePillar-Sheet_23
+  - first:
+      213: -602203526230150310
+    second: IcePillar-Sheet_24
+  - first:
+      213: 3759649785618566017
+    second: IcePillar-Sheet_25
+  - first:
+      213: -1917730088152547715
+    second: IcePillar-Sheet_26
+  - first:
+      213: -3335027109844332456
+    second: IcePillar-Sheet_27
+  - first:
+      213: -2325291477127446254
+    second: IcePillar-Sheet_28
+  - first:
+      213: -7942392680645117959
+    second: IcePillar-Sheet_29
+  - first:
+      213: 4935871596689002458
+    second: IcePillar-Sheet_30
+  - first:
+      213: -5282777962845101201
+    second: IcePillar-Sheet_31
+  - first:
+      213: 1561431274430431648
+    second: IcePillar-Sheet_32
+  - first:
+      213: -1771656893533266414
+    second: IcePillar-Sheet_33
+  - first:
+      213: 8118541948683890770
+    second: IcePillar-Sheet_34
+  - first:
+      213: -7526892581739875785
+    second: IcePillar-Sheet_35
+  - first:
+      213: 6154917051135878604
+    second: IcePillar-Sheet_36
+  - first:
+      213: 6204258502159236131
+    second: IcePillar-Sheet_37
+  - first:
+      213: -1744747847144582748
+    second: IcePillar-Sheet_38
+  - first:
+      213: 7336576719885244235
+    second: IcePillar-Sheet_39
+  - first:
+      213: -8088375820198724878
+    second: IcePillar-Sheet_40
+  - first:
+      213: -1968203464211610208
+    second: IcePillar-Sheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IcePillar-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785d3e1649ae8eab0800000000000000
+      internalID: -4978471465039702649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 530
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675e20ec426053a80800000000000000
+      internalID: -8487871167564946058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 530
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2a0c6971152d1b0800000000000000
+      internalID: -5633351022131764482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 530
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c3a75b4cf1692c0800000000000000
+      internalID: -4425314654126195597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 530
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee44fd03b151e17c0800000000000000
+      internalID: -4098815404332333842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 530
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065fa5c9fbc303ad0800000000000000
+      internalID: -2724610980899523232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648373dbbe29b6f90800000000000000
+      internalID: -6959307257981487034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 424
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47e85e85f18c4e60800000000000000
+      internalID: 7947870334057244493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 424
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa6fbcad41e7a500800000000000000
+      internalID: 407542015027276460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 424
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ff1d7deadf8dc00800000000000000
+      internalID: 925768650811637578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 424
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8648a9c35f46590800000000000000
+      internalID: -7681745423748011851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 424
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f15c4fc323c60f80800000000000000
+      internalID: -8140604717856435727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6224b35ba9a6c2eb0800000000000000
+      internalID: -4743299094829907418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 318
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5362144936cba5f0800000000000000
+      internalID: -744283364142193826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 318
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746b0a0c26a40f080800000000000000
+      internalID: -9155736254445210041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 318
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dd68a50b1611640800000000000000
+      internalID: 5048924067319963008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 318
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022de4a59eb8aa050800000000000000
+      internalID: 5812612103433802272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 318
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f47a47166115e590800000000000000
+      internalID: -7645685662216456967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d10eb481d742460800000000000000
+      internalID: 7216030046260043082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 212
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c455221785742df0800000000000000
+      internalID: -205910459966729021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 212
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efba884e02e3489c0800000000000000
+      internalID: -3925944664166192130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 212
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a11ff3bf384a0b0800000000000000
+      internalID: -5718300511720891831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 212
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b750926a6e233320800000000000000
+      internalID: 2536422049594759090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 212
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7856ade388b0ba90800000000000000
+      internalID: -7300132119200245633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a537090651b84a7f0800000000000000
+      internalID: -602203526230150310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 106
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b0baf7f85fc2430800000000000000
+      internalID: 3759649785618566017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 106
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7eb69835aad265e0800000000000000
+      internalID: -1917730088152547715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 106
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8505e69638a97b1d0800000000000000
+      internalID: -3335027109844332456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 106
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2114392b8b7eabfd0800000000000000
+      internalID: -2325291477127446254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 106
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f73c7300f3f6c190800000000000000
+      internalID: -7942392680645117959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf8699d01dbf7440800000000000000
+      internalID: 4935871596689002458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f632b51ae6dcfa6b0800000000000000
+      internalID: -5282777962845101201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a18c95a8715ba510800000000000000
+      internalID: 1561431274430431648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ed315217fc967e0800000000000000
+      internalID: -1771656893533266414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePillar-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250396173eadaa070800000000000000
+      internalID: 8118541948683890770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c8c03d0c2d8864e4eae426ee7fcda4e9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IcePillar-Sheet_0: -4978471465039702649
+      IcePillar-Sheet_1: -8487871167564946058
+      IcePillar-Sheet_10: -7681745423748011851
+      IcePillar-Sheet_11: -8140604717856435727
+      IcePillar-Sheet_12: -4743299094829907418
+      IcePillar-Sheet_13: -744283364142193826
+      IcePillar-Sheet_14: -9155736254445210041
+      IcePillar-Sheet_15: 5048924067319963008
+      IcePillar-Sheet_16: 5812612103433802272
+      IcePillar-Sheet_17: -7645685662216456967
+      IcePillar-Sheet_18: 7216030046260043082
+      IcePillar-Sheet_19: -205910459966729021
+      IcePillar-Sheet_2: -5633351022131764482
+      IcePillar-Sheet_20: -3925944664166192130
+      IcePillar-Sheet_21: -5718300511720891831
+      IcePillar-Sheet_22: 2536422049594759090
+      IcePillar-Sheet_23: -7300132119200245633
+      IcePillar-Sheet_24: -602203526230150310
+      IcePillar-Sheet_25: 3759649785618566017
+      IcePillar-Sheet_26: -1917730088152547715
+      IcePillar-Sheet_27: -3335027109844332456
+      IcePillar-Sheet_28: -2325291477127446254
+      IcePillar-Sheet_29: -7942392680645117959
+      IcePillar-Sheet_3: -4425314654126195597
+      IcePillar-Sheet_30: 4935871596689002458
+      IcePillar-Sheet_31: -5282777962845101201
+      IcePillar-Sheet_32: 1561431274430431648
+      IcePillar-Sheet_33: -1771656893533266414
+      IcePillar-Sheet_34: 8118541948683890770
+      IcePillar-Sheet_4: -4098815404332333842
+      IcePillar-Sheet_5: -2724610980899523232
+      IcePillar-Sheet_6: -6959307257981487034
+      IcePillar-Sheet_7: 7947870334057244493
+      IcePillar-Sheet_8: 407542015027276460
+      IcePillar-Sheet_9: 925768650811637578
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

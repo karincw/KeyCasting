@@ -15,7 +15,7 @@ MonoBehaviour:
   magicName: Infierno
   magicDescription: Infierno
   animationHash: CastInfierno
-  Letter: 7
+  Letter: 8
   Mana: 12
   CastingTime: 6
   CanHold: 1

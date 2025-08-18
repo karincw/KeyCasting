@@ -35,7 +35,7 @@ public class PlayerAnimator : MonoBehaviour
         Vector2 moveDirection = (_navAgent.destination - transform.position).normalized;
         _moveDirection = moveDirection;
 
-        if (_moveDirection == Vector2.zero)
+        if (_moveDirection.magnitude <= 0.01f)
         {
             _animator.SetBool(_walkHash, false);
         }
@@ -48,7 +48,7 @@ public class PlayerAnimator : MonoBehaviour
 
     public void SetViewDirection(Vector2 direction)
     {
-        if (direction == Vector2.zero) return;
+        if (_moveDirection.magnitude <= 0.01f) return;
 
         if (direction.x < 0)
             _spriteRenderer.flipX = true;

@@ -72,7 +72,7 @@ public class Casting : MonoBehaviour
             Vector2 lookMouseDir = (Utils.GetMousePos() - (Vector2)transform.position).normalized;
 
             currentMagic = currentMagicData.UseMagic();
-            currentMagic.SetPositionWithDirection((Vector2)transform.position + lookMouseDir, lookMouseDir); //原狛 持失
+            currentMagic.SetPositionWithDirection(transform.position, lookMouseDir); //原狛 持失
             currentMagic.Flip(_playerAnimator.IsFlip);
             currentMagic.NextPhase(MagicPhase.Casting);
 
@@ -101,7 +101,7 @@ public class Casting : MonoBehaviour
 
     private void LookUpMouse()
     {
-        if (!(_isCasting || _isHolding)) return;
+        if (!_isCasting || !_isHolding) return;
         Vector3 mousePos = Utils.GetMousePos();
         _playerAnimator.SetViewDirection((mousePos - transform.position).normalized );
     }
@@ -117,9 +117,9 @@ public class Casting : MonoBehaviour
         if (!_isCasting || _isHolding) return;
         if (_castingLetter[_castingIndex] == "END")
         {
-            currentMagic.NextPhase(MagicPhase.Success);
             currentMagic.Flip(_playerAnimator.IsFlip);
             _playerAnimator.CastingSuccess();
+            currentMagic.NextPhase(MagicPhase.Success);
 
             if (currentMagicData.CanHold)
             {

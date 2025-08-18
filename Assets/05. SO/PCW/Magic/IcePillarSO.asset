@@ -15,7 +15,7 @@ MonoBehaviour:
   magicName: IcePillar
   magicDescription: IcePillar
   animationHash: CastIcePillar
-  Letter: 5
+  Letter: 6
   Mana: 8
   CastingTime: 4
   CanHold: 0

@@ -9,6 +9,7 @@ public class MagicAnimator : MonoBehaviour
     protected int _PerformHash = Animator.StringToHash("Perform");
     protected int _HoldHash = Animator.StringToHash("Hold");
     protected int _EndHash = Animator.StringToHash("End");
+    protected int _HitHash = Animator.StringToHash("Hit");
 
     protected virtual void Awake()
     {
@@ -32,5 +33,9 @@ public class MagicAnimator : MonoBehaviour
     public void End()
     {
         _animator.SetTrigger(_EndHash);
+    }
+    public void Hit()
+    {
+        _animator.SetTrigger(_HitHash);
     }
 }

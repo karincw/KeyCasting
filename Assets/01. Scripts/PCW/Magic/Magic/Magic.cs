@@ -11,6 +11,7 @@ public abstract class Magic : MonoBehaviour
     [SerializeField] protected int _damage;
     [SerializeField] protected int _speed;
     protected Vector2 _direction;
+    protected Vector2 _ownerPosition;
 
     protected bool _setUpEnd = false;
 
@@ -25,8 +26,9 @@ public abstract class Magic : MonoBehaviour
 
     public void SetPositionWithDirection(Vector2 position, Vector2 direction)
     {
-        transform.position = position;
+        _ownerPosition = position;
         _direction = direction.normalized;
+        transform.position = _ownerPosition + _direction;
         _setUpEnd = true;
     }
 

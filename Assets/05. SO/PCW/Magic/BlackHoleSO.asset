@@ -22,5 +22,5 @@ MonoBehaviour:
   CastDecreaseValue: 1.2
   HoldIncreaseValue: 0.4
   CastReward: 1.5
-  HoldReward: 0.6
+  HoldReward: 0.8
   _magicPrefab: {fileID: 3513121199201683807, guid: 976dc0768c981514db9cdc9ef4d0efb5, type: 3}
