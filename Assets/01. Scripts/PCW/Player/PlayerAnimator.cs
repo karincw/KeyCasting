@@ -9,7 +9,6 @@ public class PlayerAnimator : MonoBehaviour
 
     protected Animator _animator;
     protected SpriteRenderer _spriteRenderer;
-    protected Vector2 _moveDirection;
 
     protected int _walkHash = Animator.StringToHash("Walk");
     protected int _HitHash = Animator.StringToHash("Hit");
@@ -32,28 +31,18 @@ public class PlayerAnimator : MonoBehaviour
 
     private void GetMoveDirection()
     {
-        Vector2 moveDirection = (_navAgent.destination - transform.position).normalized;
-        _moveDirection = moveDirection;
+        Vector2 moveDirection = (_navAgent.destination - transform.position);
 
-        if (_moveDirection.magnitude <= 0.01f)
-        {
-            _animator.SetBool(_walkHash, false);
-        }
-        else
-        {
-            _animator.SetBool(_walkHash, true);
-        }
-        SetViewDirection(_moveDirection);
+        _animator.SetBool(_walkHash, moveDirection.magnitude > 0.01f);
+
+        SetViewDirection(moveDirection);
     }
 
     public void SetViewDirection(Vector2 direction)
     {
-        if (_moveDirection.magnitude <= 0.01f) return;
+        if (direction.magnitude <= 0.1f) return;
 
-        if (direction.x < 0)
-            _spriteRenderer.flipX = true;
-        else
-            _spriteRenderer.flipX = false;
+        _spriteRenderer.flipX = direction.x < 0;
     }
 
     public void Clear()

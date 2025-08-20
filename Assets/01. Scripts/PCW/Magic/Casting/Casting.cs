@@ -101,9 +101,9 @@ public class Casting : MonoBehaviour
 
     private void LookUpMouse()
     {
-        if (!_isCasting || !_isHolding) return;
+        if (!_isCasting && !_isHolding) return;
         Vector3 mousePos = Utils.GetMousePos();
-        _playerAnimator.SetViewDirection((mousePos - transform.position).normalized );
+        _playerAnimator.SetViewDirection((mousePos - transform.position));
     }
 
     private void UpdateCastingGauge()
