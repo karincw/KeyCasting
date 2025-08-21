@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Infierno
+  m_Controller: {fileID: 9100000, guid: 4bc37f665ec5109458345884d7a2e507, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: cce13c10e44d59d4a8728c92481c6415, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 87f54948077590546a3d0f7438049288, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3e1290f254695074f8699d08d7fde3ea, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0325fbe57dac9b14f9fb3769c79fd9eb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f1506bd1db24b7241bde23a04ed6a248, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d3478c5fc49ab0e4591250bfcac1f1ec, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a3a9d907f75701d44b8cebe0a3ea582f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f0afaa43bc0f55445ac94d3acc099fc4, type: 2}

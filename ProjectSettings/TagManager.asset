@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -41,3 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 353046635
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3339960753
+    locked: 0
+  - name: Agent
+    uniqueID: 573684195
+    locked: 0
+  - name: Effect
+    uniqueID: 3879886179
+    locked: 0
+  - name: UI
+    uniqueID: 4039966295
+    locked: 0
+  m_RenderingLayers:
+  - Default
