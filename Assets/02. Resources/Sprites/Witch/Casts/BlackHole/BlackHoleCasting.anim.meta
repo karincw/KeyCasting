@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/02. Resources/Sprites/Witch/Casts/BlackHole/BlackHoleCasting.anim.meta
 guid: 68e45eec4fd64ed4da5bfa7a7929cea6
+========
+guid: 38fe82648e43f7243beeb33cd40e40f1
+>>>>>>>> dd907e1af8cbd0f7070c42c1c6ec85620364dfee:Assets/02. Resources/Sprites/Witch/Casts/BlackHole/BlackHoleEnd.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000
