@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public interface IHitable
 {
     protected int Health { get; set; }
